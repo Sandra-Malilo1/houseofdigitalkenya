@@ -41,7 +41,7 @@ export default function App() {
   category: "Banking & Financial Services",
   description:
     "A modern digital banking experience designed to simplify financial services, improve customer accessibility, and deliver seamless interactions through an intuitive, responsive interface.",
-  tags: ["React", "Tailwind CSS", "Node.js"],
+  tags: ["React", "Tailwind CSS", "Node.js","Wordpress"],
   icon: <Smartphone className="w-8 h-8 text-cyan-400" />,
   image: "/assets/images/rafiki.jpg",
   link: "https://rafikibank.co.ke/",
@@ -50,12 +50,22 @@ export default function App() {
       title: "Eatsbyteks", 
       category: "Recipe", 
       description: "A vibrant artisanal snack brand bringing the bold flavors of Kenya's coastal cuisine to health-conscious consumers worldwide.", 
-      tags: ["Next.js", "Tailwind", "Node.js"], 
+      tags: ["Next.js", "Tailwind", "Typescript", "Supabase"], 
       icon: <Smartphone className="w-8 h-8 text-cyan-400" />,
       image: "/assets/images/eatsbyteks.jpeg", 
       link: "https://eatsbyteks-next-hr52.vercel.app/" 
 
     },
+     { 
+    title: "LoveAfrica StayCation", 
+    category: "Sustainability", 
+    description: "AI-drA curated booking platform showcasing authentic African staycations, connecting travelers with eco-friendly lodges, cultural homestays, and unique local experiences across East Africa.",
+    tags: ["Nestjs", "`Supabase", "RestAPI", "TypeScript"], 
+    icon: <Code2 className="w-5 h-5" />,
+    status: "In Development",
+    image: "/assets/images/loveafrica.PNG", 
+     link: "https://sundowners-txt-sigma.vercel.app/" 
+  },
      {
       title: "Malivere Restaurant", 
       category: "Food and Delivery", 
@@ -94,19 +104,12 @@ export default function App() {
     image: "/assets/images/cyber.PNG", // Replace with your actual filename
     link: "https://cybertroveafrica.com/" 
   },
+ 
 ];
 
 
 const upcomingProjects: Project[] = [
-  { 
-    title: "LoveAfrica StayCation", 
-    category: "Sustainability", 
-    description: "AI-drA curated booking platform showcasing authentic African staycations, connecting travelers with eco-friendly lodges, cultural homestays, and unique local experiences across East Africa.",
-    tags: ["Nestjs", "`Prisma", "FlutterWave", "TypeScript"], 
-    icon: <Code2 className="w-5 h-5" />,
-    status: "In Development",
-    image: "/assets/images/ecotrack-pro.jpg", // Replace with your actual filename
-  },
+  
 
     { 
       title: "SmartFarm IoT", 
